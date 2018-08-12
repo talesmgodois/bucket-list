@@ -1,1 +1,6 @@
 .idea
+*.iml
+
+
+#Ignoring this to preserve database
+config.py

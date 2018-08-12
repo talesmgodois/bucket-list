@@ -16,7 +16,7 @@ class DevelopmentConfig(Config):
 class TestingConfig(Config):
     """Configurations for Testing, with a separate test database."""
     TESTING = True
-    SQLALCHEMY_DATABASE_URI = 'postgres://yqoisniadbchdt:c315a03e9222d7e037996254358bf50a7139248e97f253dcf26ff65a9d26a317@ec2-107-21-98-165.compute-1.amazonaws.com:5432/d56h43lmoip4e8'
+    SQLALCHEMY_DATABASE_URI = 'postgresql://localhost/test_db'
     DEBUG = True
 
 class StagingConfig(Config):
